@@ -1,0 +1,55 @@
+::root{
+    color: #5555;
+}
+
+
+/*=====
+Header
+========*/
+.header-container{
+    display:flex;
+    flex-direction: row;
+    background-color:black;
+    width:100%;
+    height:70px;
+    margin: 0;
+    color:#eaeaead6;
+    
+}
+
+.name-header{
+    margin-right:900px;
+    margin-left:50px;
+    
+}
+
+.attachments{
+    margin-top:20px;
+}
+
+.About-heading{
+    margin-right:10px;
+}
+
+.Work-heading{
+    margin-right:10px;
+}
+h2.name-header{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-color: black;
+    color: rgba(245, 245, 245, 0.9);
+}
+
+.heading-1{
+    margin-left:50px;
+    font-family:'Roboto Mono', monospace;
+}
+
+
+
+
+
