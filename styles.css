@@ -133,5 +133,68 @@ button.image-button-2{
 .images-container{
   display:flex;
   flex-direction: column;
+  align-items: flex-start;
+  gap:100px;
 }
 
+.top-text{
+  margin-left:50px;
+}
+
+.desc-text{
+  color:rgba(255, 255, 255, 0.801);
+  margin-left:50px;
+}
+
+.top-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.desc-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.desc-text-2{
+  margin-left:50px;
+}
+
+.project-info{
+  margin-left:50px;
+}
+
+.line-2{
+  margin-left:50px;
+  width:520px;
+}
+
+.year{
+  margin-left:50px;
+}
+
+.line-1{
+  width:100%;
+}
+
+.year-container{
+  display:flex;
+  flex-direction: row;
+}
+
+.year-numbers{
+  margin-left:400px;
+}
+
+.role{
+  margin-left:50px;
+}
+
+.role-container{
+  display:flex;
+  flex-direction: row;
+}
+
+.role-desc{
+  margin-left:350px;
+}
