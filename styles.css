@@ -115,7 +115,7 @@ button.image-button{
 
 .podcast-text{
     color:rgba(255, 255, 255, 0.801);
-    background-color: black;
+    background-color: #9d00ff;
     width:80px;
     padding:10px;
     border-radius: 20px;
@@ -197,4 +197,31 @@ button.image-button-2{
 
 .role-desc{
   margin-left:350px;
+}
+
+.demo-link{
+  color:#9d00ff;
+  margin-top:5px;
+  margin-left:50px;
+}
+.link{
+  color:#9d00ff;
+  margin-left:50px;
+  margin-top:5px;
+
+}
+
+.link-container{
+  display:flex;
+  flex-direction: row;
+}
+
+#link-logo{
+  margin-top: 5px;
+  margin-left:2px;
+}
+
+.screenshot-container{
+  display:flex;
+  flex-direction: row;
 }
