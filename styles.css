@@ -113,6 +113,16 @@ button.image-button{
     margin-left:50px;
 }
 
+
+button.image-button:hover{
+  transform: scale(1.02);
+  background-color: #9d00ff;
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 8px 20px grey;
+}
+
+
+
 .podcast-text{
     color:rgba(255, 255, 255, 0.801);
     background-color: #9d00ff;
@@ -128,6 +138,13 @@ button.image-button-2{
     border:none;
     margin-left:50px;
     padding:10px;
+}
+
+button.image-button-2:hover{
+    transform: scale(1.02);
+    background-color: #9d00ff;
+    transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 8px 20px grey;
 }
 
 .images-container{
