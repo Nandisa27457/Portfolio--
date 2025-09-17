@@ -1,0 +1,31 @@
+.About-container {
+  display: flex;
+  flex-direction: row;
+  gap: 330px;
+  margin-top: 30px;
+}
+
+.about-heading {
+  margin-left: 50px;
+}
+
+.about-section-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#about-me-button {
+  width: 150px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: 1px solid #9d00ff;
+  border-radius: 100px;
+}
+
+#about-me-button:hover {
+  background-color: #9d00ff;
+  border: 1px solid black;
+  transform: scale(1.02);
+  transform: translateY(-6px) scale(1.02);
+}
