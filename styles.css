@@ -132,7 +132,7 @@ button.image-button:hover{
 
 }
 
-button.image-button-2{
+button#image-button-2{
   border-radius: 5px;
     background-color:rgba(128, 128, 128, 0.242) ;
     border:none;
@@ -140,7 +140,7 @@ button.image-button-2{
     padding:10px;
 }
 
-button.image-button-2:hover{
+button#image-button-2:hover{
     transform: scale(1.02);
     background-color: #9d00ff;
     transform: translateY(-6px) scale(1.02);
@@ -242,3 +242,12 @@ button.image-button-2:hover{
   display:flex;
   flex-direction: row;
 }
+
+.profile-image{
+  margin-left:700px;
+  position: absolute;
+  bottom:300px;
+  border-radius:20px;
+  
+}
+

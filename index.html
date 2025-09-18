@@ -12,6 +12,9 @@
     <link
       href="about.css"
       rel="stylesheet" />
+    <link
+      href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+      rel="stylesheet" />
   </head>
   <body>
     <header class="header-container">
@@ -53,6 +56,10 @@
           class="github"
           name="logo-github"></ion-icon>
       </div>
+      <img
+        class="profile-image"
+        src="images/Profile picture.jpg"
+        width="200px" />
       <img
         class="line-1"
         src="images/Line 4.png" />
@@ -120,14 +127,18 @@
           </span>
 
           <span class="screenshot-container">
-            <button class="image-button-2">
+            <button
+              data-aos="fade-up"
+              id="image-button-2">
               <p class="podcast-text">podcast app</p>
               <img
                 class="podcast-screenshot"
                 src="images/Screenshot 2025-09-11 213735.png"
                 alt="pocast" />
             </button>
-            <div class="desc-container">
+            <div
+              data-aos="fade-up"
+              class="desc-container">
               <h2 class="desc-text">Podcast Landing Page</h2>
               <p class="desc-text-2">
                 A responsive web application that allows users to browse podcast
@@ -175,7 +186,9 @@
         <img
           src="images/Line 4.png"
           width="100%" />
-        <span class="About-container">
+        <span
+          data-aos="fade-up"
+          class="About-container">
           <h1 class="about-heading">About Me</h1>
           <div class="about-section-container">
             <h2>
@@ -188,34 +201,71 @@
               to focus on accessibility when developing. Passionate and curious
               about solving problems.
             </p>
-            <button id="about-me-button">More about me</button>
+            <button
+              id="openModalBtn"
+              class="about-me-button">
+              More about me
+            </button>
           </div>
         </span>
+        <img src="images/Line 4.png"/>
         <!---Modal-->
-        <div class="modal-container">
-          <h2>About Me</h2>
-          <p>
-            I’m Nandisa, a full-stack developer with a background in commerce
-            and a passion for creating digital experiences that are both
-            functional and visually engaging. I specialize in building
-            responsive web applications that blend technical precision with
-            creative design, ensuring every project is polished and
-            user-friendly. I enjoy exploring new technologies, experimenting
-            with innovative ideas, and collaborating with others to bring
-            concepts to life. Whether it’s developing sleek interfaces,
-            optimizing performance, or crafting interactive features, I focus on
-            delivering solutions that make a real impact.
-          </p>
-          <button>Download CV</button>
-          <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-          <ion-icon
-            class="linkedin"
-            name="logo-linkedin"></ion-icon>
-          <ion-icon
-            class="github"
-            name="logo-github"></ion-icon>
+        <!-- Modal overlay -->
+        <div
+          class="modal-container"
+          id="myModal">
+          <!-- Modal content box -->
+          <div class="modal-content">
+            <span
+              class="close-btn"
+              id="closeModalBtn"
+              >&times;</span
+            >
+
+            <h2>About Me</h2>
+            <p>
+              I’m Nandisa, a full-stack developer with a background in commerce
+              and a passion for creating digital experiences that are both
+              functional and visually engaging...
+            </p>
+            <button class="download-btn">Download CV</button>
+
+            <ion-icon
+              class="linkedin"
+              name="logo-linkedin"></ion-icon>
+            <ion-icon
+              class="github"
+              name="logo-github"></ion-icon>
+
+            <img src="images/Line 4.png" />
+            <h2>My Capabilities</h2>
+            <p>
+              I am well versed and experienced in a myriad of languages and I am
+              always learning and developing my knowledge and skills of new
+              languages
+            </p>
+
+            <img src="images/Line 4.png" />
+            <h2>My Experience</h2>
+            <h3>Freelance Developer</h3>
+            <ul>
+              <li>
+                Developing interactive responsive webpages and landing pages.
+              </li>
+              <li>Developing AI-powered MVP apps.</li>
+              <li>Using data display from API retrieval and localStorage.</li>
+              <li>Creating apps using React, and other languages.</li>
+            </ul>
+          </div>
         </div>
-        <img src="images/Line 4.png" />
+
+        <!-- Scripts -->
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init({ duration: 800 });
+        </script>
+        <script src="scripts.js"></script>
       </div>
     </div>
   </body>
