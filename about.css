@@ -30,6 +30,7 @@
   color: white;
   border: 1px solid #9d00ff;
   border-radius: 100px;
+  margin-bottom:200px;
 }
 
 #about-me-button:hover {
@@ -37,6 +38,56 @@
   border: 1px solid black;
   transform: scale(1.02);
   transform: translateY(-6px) scale(1.02);
+}
+
+
+/*Contact Styling*/
+.contact-container{
+    display:flex;
+    flex-direction: row;
+    margin-top:50px;
+}
+
+.title-container{
+    display:flex;
+    flex-direction: column;
+    margin-left:40px;
+}
+
+.input-container{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left:400px;
+  margin-bottom:200px;
+  gap:10px;
+}
+
+input{
+    width:300px;
+    height:30px;
+    background-color: #222;
+    border:none;
+    border-radius:2px;
+}
+
+label{
+    color:rgba(255, 255, 255, 0.546);
+}
+
+.submit-btn{
+    width: 100px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: 1px solid #9d00ff;
+  border-radius: 100px;
+  margin-top:20px;
+
+}
+
+a{
+    color:#9d00ff;
 }
 
 /* Modal Styling*/
