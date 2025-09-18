@@ -89,7 +89,9 @@ label{
 a{
     color:#9d00ff;
 }
-
+.icon-div{
+    display: inline;
+}
 /* Modal Styling*/
 
 /* Overlay */
